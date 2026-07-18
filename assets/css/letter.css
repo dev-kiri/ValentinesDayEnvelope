@@ -1,0 +1,57 @@
+/* LETTER STYLES */
+
+.letter {
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    width: 400px;
+    height: 210px;
+    background: linear-gradient(135deg, #fdfbf5 0%, #f5f0e3 100%);
+    border: 4px solid #bba40e;
+    border-radius: 3px;
+    box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 20px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    transform: rotate(15deg);
+    z-index: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    user-select: none;
+
+    transition: all 0.15s ease;
+}
+
+.letter:hover {
+    transform: scale(1.05) rotate(15deg);
+}
+
+.letter p {
+    margin: 10px;
+    text-wrap: pretty;
+    text-align: center;
+}
+
+.letter p .char {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.letter p .char.glow {
+    padding-right: 2px;
+    color: #fbd604d2;
+    text-shadow: 
+        0 0 0px #d1b517,
+        0 0 1px #ffd700,
+        0 0 10px #fff9e6;
+}
