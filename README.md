@@ -43,4 +43,4 @@ No build step needed — just open `index.html` in a browser, or serve the folde
 
 ---
 
-Made by Kiri · [@kiri](https://instagram.com/your_instagram)
+Made by Kiri · [@kiri](https://instagram.com/soon_to_be_created)
